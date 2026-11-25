@@ -9,6 +9,12 @@ from PIL import Image
 
 
 def read_rgb(path):
+    # Pillow can silently downconvert RGB16 PNGs when decoding into RGB mode.
+    with open(path, "rb") as stream:
+        header = stream.read(29)
+    if (header[:8] != b"\x89PNG\r\n\x1a\n" or header[12:16] != b"IHDR"
+            or header[24:26] not in (bytes([8, 2]), bytes([8, 6]))):
+        raise ValueError(f"{path}: expected truecolour RGB8 or RGBA8 PNG")
     with Image.open(path) as image:
         if image.format != "PNG" or image.mode not in ("RGB", "RGBA"):
             raise ValueError(f"{path}: expected RGB or RGBA PNG")
