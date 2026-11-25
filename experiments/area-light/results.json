@@ -1,0 +1,158 @@
+{
+  "rows": [
+    {
+      "half_width_over_height": 0.25,
+      "order": 1,
+      "irradiance": 0.25,
+      "analytic": 0.23083679773017077,
+      "relative_error": 0.08301623683165732
+    },
+    {
+      "half_width_over_height": 0.25,
+      "order": 2,
+      "irradiance": 0.23039999999999997,
+      "analytic": 0.23083679773017077,
+      "relative_error": -0.0018922361359447644
+    },
+    {
+      "half_width_over_height": 0.25,
+      "order": 4,
+      "irradiance": 0.2308366298028741,
+      "analytic": 0.23083679773017077,
+      "relative_error": -7.274719556434935e-07
+    },
+    {
+      "half_width_over_height": 0.25,
+      "order": 8,
+      "irradiance": 0.2308367977301555,
+      "analytic": 0.23083679773017077,
+      "relative_error": -6.613142591953686e-14
+    },
+    {
+      "half_width_over_height": 0.25,
+      "order": 16,
+      "irradiance": 0.23083679773017074,
+      "analytic": 0.23083679773017077,
+      "relative_error": -1.2023895621733975e-16
+    },
+    {
+      "half_width_over_height": 0.25,
+      "order": 32,
+      "irradiance": 0.23083679773017068,
+      "analytic": 0.23083679773017077,
+      "relative_error": -3.6071686865201923e-16
+    },
+    {
+      "half_width_over_height": 0.25,
+      "order": 64,
+      "irradiance": 0.23083679773017085,
+      "analytic": 0.23083679773017077,
+      "relative_error": 3.6071686865201923e-16
+    },
+    {
+      "half_width_over_height": 1.0,
+      "order": 1,
+      "irradiance": 4.0,
+      "analytic": 1.740839502734206,
+      "relative_error": 1.297741976625358
+    },
+    {
+      "half_width_over_height": 1.0,
+      "order": 2,
+      "irradiance": 1.4400000000000004,
+      "analytic": 1.740839502734206,
+      "relative_error": -0.17281288841487089
+    },
+    {
+      "half_width_over_height": 1.0,
+      "order": 4,
+      "irradiance": 1.7269892394760549,
+      "analytic": 1.740839502734206,
+      "relative_error": -0.007956082818891475
+    },
+    {
+      "half_width_over_height": 1.0,
+      "order": 8,
+      "irradiance": 1.7408224716028522,
+      "analytic": 1.740839502734206,
+      "relative_error": -9.783286355303511e-06
+    },
+    {
+      "half_width_over_height": 1.0,
+      "order": 16,
+      "irradiance": 1.7408395027163919,
+      "analytic": 1.740839502734206,
+      "relative_error": -1.023310565732567e-11
+    },
+    {
+      "half_width_over_height": 1.0,
+      "order": 32,
+      "irradiance": 1.7408395027342043,
+      "analytic": 1.740839502734206,
+      "relative_error": -1.0204024188388764e-15
+    },
+    {
+      "half_width_over_height": 1.0,
+      "order": 64,
+      "irradiance": 1.7408395027342092,
+      "analytic": 1.740839502734206,
+      "relative_error": 1.7857042329680334e-15
+    },
+    {
+      "half_width_over_height": 2.0,
+      "order": 1,
+      "irradiance": 16.0,
+      "analytic": 2.610753031016151,
+      "relative_error": 5.128500018928454
+    },
+    {
+      "half_width_over_height": 2.0,
+      "order": 2,
+      "irradiance": 1.1900826446280992,
+      "analytic": 2.610753031016151,
+      "relative_error": -0.5441611556168918
+    },
+    {
+      "half_width_over_height": 2.0,
+      "order": 4,
+      "irradiance": 2.247317033518731,
+      "analytic": 2.610753031016151,
+      "relative_error": -0.13920734484638866
+    },
+    {
+      "half_width_over_height": 2.0,
+      "order": 8,
+      "irradiance": 2.5986006663135996,
+      "analytic": 2.610753031016151,
+      "relative_error": -0.004654735456850661
+    },
+    {
+      "half_width_over_height": 2.0,
+      "order": 16,
+      "irradiance": 2.6107452350529528,
+      "analytic": 2.610753031016151,
+      "relative_error": -2.9860975379487213e-06
+    },
+    {
+      "half_width_over_height": 2.0,
+      "order": 32,
+      "irradiance": 2.6107530310139158,
+      "analytic": 2.610753031016151,
+      "relative_error": -8.561135299363895e-13
+    },
+    {
+      "half_width_over_height": 2.0,
+      "order": 64,
+      "irradiance": 2.6107530310161575,
+      "analytic": 2.610753031016151,
+      "relative_error": 2.5515006852862792e-15
+    }
+  ],
+  "checks": {
+    "rigid_transform_abs_error": 8.326672684688674e-17,
+    "tilted_receiver_abs_error": 5.551115123125783e-17,
+    "back_facing_emitter": 0.0,
+    "back_facing_receiver": 0.0
+  },
+  "passed": true
+}
