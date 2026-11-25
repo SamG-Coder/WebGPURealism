@@ -1,0 +1,73 @@
+{
+  "scene_sha256": "2fb465b8fd749d94fb6a237b4b5303eec6c2bc733bf78362fd6e933d0bf863af",
+  "camera": {
+    "model": "pinhole",
+    "position": [
+      0.0,
+      1.0,
+      3.9
+    ],
+    "target": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "up": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "verticalFovDeg": 40.0,
+    "exposure": 1.0,
+    "outputTransform": "exposure-clamp-srgb-oetf",
+    "pixelFilter": "box"
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "spp_per_seed": 16,
+  "trials": [
+    {
+      "seed": 17,
+      "wall_seconds": 16.12471580001875,
+      "rgb_f32_sha256": "8d2676c13df8a361b285d959bfd5fddb67cd7b44b8e2afb48bcb9d51cc7527b8",
+      "lamp": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "exterior": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 31,
+      "wall_seconds": 16.293933399982052,
+      "rgb_f32_sha256": "1c046b11338a8410cf2cca539a90ee0615067a066faf32ca3ca839240cde54cf",
+      "lamp": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "exterior": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "max_depth": -1,
+  "rr_depth": 5,
+  "threads": 2,
+  "variant": "scalar_rgb",
+  "mitsuba": "3.9.1",
+  "python": "3.12.10",
+  "numpy": "2.5.5",
+  "relative_rms": 0.04496715691803486,
+  "diffuse_region_relative_rms": 0.16216275931300803,
+  "controls_pass": true,
+  "converged": false
+}
